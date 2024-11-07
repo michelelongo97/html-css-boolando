@@ -64,3 +64,33 @@ img{
     color: white;
 }
 
+/*footer*/
+
+footer{
+    background-color: #1a1a1a;
+
+}
+
+footer > .container{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.credits{
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.social{
+    color:white; 
+    text-align: right;
+    width: 50%;
+}
+
+.credits > a{
+    color: white;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
