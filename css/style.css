@@ -64,6 +64,23 @@ header{
     color: white;
 }
 
+/*main*/
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.column{
+    width: 33%;
+}
+
+img{
+    max-width: 100%;
+}
+
+
 /*footer*/
 
 footer{
