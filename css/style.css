@@ -12,6 +12,10 @@ body{
     line-height: 1.5;
 }
 
+.red{
+    color: red;
+}
+
 /*general*/
 
 .container {
@@ -23,7 +27,11 @@ body{
 /*header*/
 header{
     background-color: #ff6900;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
+
 .header-top{
     padding: 10px 0;
 }
@@ -66,6 +74,10 @@ header{
 
 /*main*/
 
+main{
+    padding: 50px 0;
+}
+
 .row{
     display: flex;
     margin-bottom: 20px;
@@ -85,10 +97,52 @@ img{
     background-color: red;
     position: absolute;
     left: 0px;
-    bottom: 30px;
+    bottom: 100px;
     color: white;
+    padding: 0px 10px;
 }
 
+.type{
+    background-color: green;
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+    color: white;
+    padding: 0px 10px;
+}
+
+#last-type{
+    left: 0px;
+}
+
+.product-image{
+    position: relative;
+}
+
+.product-image img{
+    width: 100%;
+    display: block;
+}
+
+.product-image:hover .hover{
+    display: block;
+}
+
+.product-image:hover .default{
+    display: none;
+}
+
+.product-image .hover{
+    display: none;
+}
+
+.default{
+    
+}
+
+.hover{
+    
+}
 
 /*footer*/
 
